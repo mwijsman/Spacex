@@ -1,16 +1,22 @@
  @media screen and (min-width: 640px){
  	#header{
 		padding-left: 10px;
-}
+	}
+	
 	#grid-container{
  		grid-template-columns: repeat(2,1fr);
  		grid-template-rows: 250px 250px 250px 250px;
  	}
 
+	#chartContainer4,#chartContainer5,#chartContainer6 {
+ 		display: flex;
+	}
+
  	#item5{
  		grid-column: span 2;
  	}
- }
- #chartContainer4,#chartContainer5,#chartContainer6 {
- 		display: flex;
+ 
+	#item6{
+ 		grid-column: span 2;
+ 	}
  }

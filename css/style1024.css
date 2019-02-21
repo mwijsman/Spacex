@@ -1,6 +1,8 @@
   @media screen and (min-width: 1024px){
 	#grid-container{
-  		grid-template-columns: repeat(3,1fr);
-  		grid-template-rows: repeat(3, 280px);
-  	}
+  		grid-template-columns: repeat(3,2fr);
+  	}	
+	#item6{
+			grid-column: span 3;
+		}
  }
